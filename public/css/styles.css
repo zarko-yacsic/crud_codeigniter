@@ -1,0 +1,54 @@
+
+
+/* Cabecera ------ */
+header { background-color: #484667; padding-bottom: 10px;}
+header > div.container { padding-left: 30px;}
+header h1 > a { color: #EEEEEE;}
+h1 { font-size: 32px;}
+h2 { font-size: 24px;}
+
+
+
+/* Contenido ----- */
+p.description { margin: 0px auto 40px auto !important; width: 90%;}
+
+div#content-list > .cl-background {
+	background-color: #EEEEEE;
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 15px;
+}
+
+table#tb_registros th {
+	background-color: #555555;
+	color: #EEEEEE;
+}
+
+table#tb_registros ul.ul_actions {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	float: right;
+}
+
+table#tb_registros ul.ul_actions > li { float: left; margin-right: 6px;}
+table#tb_registros ul.ul_actions > li:last-of-type { margin-right: 0px;}
+table#tb_registros ul.ul_actions > li > a { padding: 3px;}
+#editUser_modal .modal-header > .close, #deleteUser_modal .modal-header > .close { margin-top: -30px;}
+#editUser_modal .modal-body, #deleteUser_modal .modal-body { padding: 30px;}
+
+/* Otros estilos ----- */
+.margin-top-20 { margin-top: 20px;}
+.margin-top-40 { margin-top: 40px;}
+.margin-right-20 { margin-right: 20px;}
+.margin-bottom-20 { margin-bottom: 20px;}
+.margin-bottom-40 { margin-bottom: 40px;}
+.margin-bottom-100 { margin-bottom: 100px;}
+.message-error { color: #FF0000;}
+.message-success { color: #009900;}
+.disabled_file { color: #CCCCCC; padding: 3px;}
+
+
+
